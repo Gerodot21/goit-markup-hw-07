@@ -1,0 +1,31 @@
+.team {
+	background-color: var(--auxiliary-color);
+	&__list {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	&__item {
+		background-color: var(--cheaf-color);
+		box-shadow: var(--box-shadow);
+		border-radius: 4px;
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+	&__name-player {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.18;
+		text-align: center;
+	}
+	&__profession {
+		padding-bottom: 16px;
+		color: var(--secondary-text-color);
+		font-size: 16px;
+		line-height: 1.18;
+		text-align: center;
+	}
+}

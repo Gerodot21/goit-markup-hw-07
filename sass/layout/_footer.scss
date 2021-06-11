@@ -1,0 +1,43 @@
+.footer {
+	background-color: var(--background-color);
+	.container {
+		display: flex;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		align-items: baseline;
+	}
+	.item {
+		padding-bottom: 10px;
+	}
+	&__logo {
+		margin-right: 90px;
+		font-family: Raleway, sans-serif;
+		color: var(--primary-text-color);
+		font-size: 26px;
+		font-weight: 700;
+		line-height: 1.2;
+		text-decoration: none;
+		&-web {
+			color: var(--third-color);
+		}
+		&-studio {
+			color: var(--cheaf-color);
+		}
+	}
+	&_address {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-style: normal;
+		color: var(--cheaf-color);
+		font-size: 14px;
+		line-height: 1.71;
+		text-decoration: none;
+	}
+	&_contacts {
+		color: var(--cheaf-color);
+		opacity: 0.6;
+		font-size: 14px;
+		line-height: 1.71;
+		text-decoration: none;
+	}
+}
